@@ -5,7 +5,7 @@
 }
 
 
-.work-sans-font> {
+.work-sans-font{
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
 }
@@ -50,3 +50,55 @@ header{
     line-height: 26px;
     margin-bottom: 24px;
 }
+
+#failures-part
+{
+    width: 1072px;
+    max-width: 1072px;
+}
+
+.failures{
+    width: 1072px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 131px 332px 0px 206px;
+   
+}
+
+
+.failures .containt{
+    width: 416px;
+    /* border: 1px solid red; */
+    margin: 239px 0px 84.3px 87px;
+}
+
+.containt h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #151414;
+    margin-bottom: 24px;
+}
+.containt p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #444343;
+    margin-bottom: 16px;
+}
+.containt li{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #444343;
+    list-style-type: none;
+    /* margin-bottom: 16px; */
+}
+
+.tick-list li::before{
+    content: "✓";
+    color: green;
+    margin-right: 8px;
+}
+
+
