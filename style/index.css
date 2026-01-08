@@ -155,7 +155,7 @@ header{
     padding-bottom: 24px;
 }
 
-.text-box button{
+.btn-white{
     width: 160px;
     font-size: 20px;
     font-weight: 500;
@@ -165,4 +165,67 @@ header{
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+footer{
+    height: 577px;
+    width: 1600px;
+    background-color: #151414;
+    padding: 130px 230px;
+}
+.devider
+{
+    display: flex;
+    justify-content: space-between;
+}
+.Left-side{
+    width: 485px;
+}
+
+.Left-side h1{
+    font-size: 45px;
+    font-weight: bold;
+    color: #F8F8F8;
+    padding-bottom: 16px;
+}
+.Left-side p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 26px;
+    padding-bottom: 24px;
+}
+.Left-side h6{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    padding-bottom: 16px;
+}
+.icon
+{
+    width: 175px;
+    justify-content: space-between;
+    padding-top: 16px;
+}
+
+.right-side{
+    width: 325px;
+}
+
+.right-side h3
+{
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 31px;
+}
+
+.right-side input{
+    width: 325px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 21px 21px ;
+    background-color: #151414;
+    margin-bottom: 16px;
 }
