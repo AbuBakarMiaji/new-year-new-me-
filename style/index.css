@@ -19,6 +19,7 @@
     padding: 20px 25px;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 header{
@@ -132,3 +133,36 @@ header{
     padding-bottom: 6px;
 }
 
+#down-banner
+{
+    background-image:url("../images/gradient2.png") , url("../images/watch.png");
+    background-repeat: no-repeat;
+    width: 1140px;
+    height: 300px;
+    margin: 0px auto 130px;   
+}
+
+.text-box{
+    width: 559px;
+    padding-top: 59px;
+    padding-left: 64px;
+}
+
+.text-box h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-bottom: 24px;
+}
+
+.text-box button{
+    width: 160px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #F15B22;
+    background-color: #FFFFFF;
+    padding: 21px 36px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
